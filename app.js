@@ -5,7 +5,7 @@ app.use(express.static('public'));
 
 app.listen(pp.listen(process.env.PORT||3000, ()=>{
     console.log('Servidor funcionando');
-});
+}));
 
 
 app.get('/', (req,res)=>{
